@@ -1,7 +1,7 @@
 /**********GENERAL**********/
 a{
 	text-decoration: none;
-	color: #FFAAAA;
+	color: #000000;
 }
 
 #wrapper{
@@ -42,6 +42,15 @@ h1{
 	color: #fff;
 }
 
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 12px 0;
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #fff;
+}
+
 /********NAVIGATION************/
 
 nav{
@@ -70,6 +79,10 @@ nav ul{
 
 nav li{
 	display: inline-block;
+}
+
+section li{
+	list-style: none;
 }
 
 /*********SECTION************/
@@ -117,4 +130,43 @@ footer{
 	max-width: 450px;
 	margin: 0 auto 30PX;
 	border-radius: 100%;
+}
+
+/***********CONTACT***********/
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info li.phone a{
+	background-image:url('../img/phone.png');
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.mail a{
+	background-image:url('../img/mail.png'); 
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.twitter a{
+	background-image:url('../img/twitter.png'); 
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
 }
