@@ -2,23 +2,19 @@
 <html>
 	<head>
 		<style type="text/css">
-		h1 {
-			font-family:sans-serif; 
-			color:green;
-			text-align:center; 
-		}
 		footer{
 			color: green;
 			background-color: red;
 		}
 		nav a{
-			background-color: purple;
+			/*background-color: #550000;*/ /*este color esta en el main.css*/
 			color: white;
 		}
 		</style>
 		<title>Mi primera pagina</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="<link href='https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Roboto' rel='stylesheet' type='text/css'>">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<meta name="keywords" content="UPSE, Universidad Peninsula, Santa Elena, Ecuador">
 		<meta name="description" content="Universidad de la Península de Santa Elena">
@@ -35,7 +31,7 @@
 			</a>
 			<nav>
 				<ul>
-					<li><a href="index.html">Galería</a></li>
+					<li><a href="index.html" class="selected">Galería</a></li>
 					<li><a href="about.html">Acerca</a></li>
 					<li><a href="contact.html">Contacto</a></li>
 				</ul>
@@ -43,8 +39,7 @@
 		</header>
 		<div id="wrapper">
 			<section>
-				<p>La Galería irá aquí</p>
-					<ul>
+					<ul id_"galeria">
 						<li>
 							<img src="img/1.jpg" alt="UPSE LOGO">
 						</li>

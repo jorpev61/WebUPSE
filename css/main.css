@@ -1,6 +1,7 @@
+/**********GENERAL**********/
 a{
 	text-decoration: none;
-	color: #6ab47b;
+	color: #FFFFAA;
 }
 
 #wrapper{
@@ -9,24 +10,43 @@ a{
 	padding: 0 5x;
 	background: orange;
 }
+
+/***********HEADING*********/
+
+header{
+	background: #AA3939;
+	border-color: #D46A6A;
+}
+
 #logo{
 	text-align: center;
 	margin: 0;
 }
 
-header{
-	background: #6ab47b;
-	border-color: #599a68;
-}
 
-h1, h2{
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 1.2em;
 	color: #fff;
 }
 
+/********NAVIGATION************/
+
 nav{
-	background: #6db69c;
+	background: #550000;
 }
 
 nav a, nav a:visited{
-	color: #fff;
+	color: #D46A6A;
+}
+
+nav a.selected {
+	color: #FFFFAA;
+}
+
+nav a:hover{
+	color: #FFFFAA;
 }
