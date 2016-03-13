@@ -1,14 +1,14 @@
 /**********GENERAL**********/
 a{
 	text-decoration: none;
-	color: #FFFFAA;
+	color: #FFAAAA;
 }
 
 #wrapper{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5x;
-	background: orange;
+	background: #FFAAAA;
 }
 
 img{
@@ -49,12 +49,14 @@ nav a, nav a:visited{
 }
 
 nav a.selected {
-	color: #FFFFAA;
+	color: #FFAAAA;
 }
 
 nav a:hover{
-	color: #FFFFAA;
+	color: #FFAAAA;
 }
+
+/*********SECTION************/
 
 #galeria{
 	margin: 0;
@@ -75,4 +77,14 @@ nav a:hover{
 	padding: 5%;
 	font-size: 0.75em;
 	color: #bdc3c7;
+}
+
+/**********FOOTER***********/
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
 }
