@@ -19,6 +19,10 @@ img{
 /***********HEADING*********/
 
 header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
 	background: #AA3939;
 	border-color: #D46A6A;
 }
@@ -46,6 +50,8 @@ nav{
 
 nav a, nav a:visited{
 	color: #D46A6A;
+	font-weight: 700;
+	padding: 15px 10px;
 }
 
 nav a.selected {
@@ -54,6 +60,16 @@ nav a.selected {
 
 nav a:hover{
 	color: #FFAAAA;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
 }
 
 /*********SECTION************/
